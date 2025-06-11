@@ -5,6 +5,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --rockpants: #FF2F9E;
+  --chilldilla: #D997F6;
+  --excalibur: #70A4DB;
+  --chillout: #81F2FF;
+  --hawkworld: #FCDD60;
+  --greenmachine: #60FC60;
+  --fadinglime: #E5FC60;
 }
 
 @media (prefers-color-scheme: dark) {

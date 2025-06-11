@@ -2,6 +2,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
+import ConvertkitSignupForm from "./components/Subscribe";
 import Footer from "./components/Footer";
 
 const plexSans = IBM_Plex_Sans({
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         {children}
+        <ConvertkitSignupForm formId={process.env.NEXT_PUBLIC_CONVERTKIT_FORM_ID} />
         <Footer />
         <Analytics />
       </body>

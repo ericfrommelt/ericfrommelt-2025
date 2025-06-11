@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <SketchOne />
       <main className="grid min-h-screen grid-cols-2 max-w-screen-xl mx-auto p-4 gap-4">
-        <h1 className="bold col-span-2 py-10 text-2xl">
+        <h1 className="col-span-2 py-10 text-2xl">
           Eric Frommelt is a 3D artist and designer based in Los Angeles, California.
         </h1>
         <div className="project col-span-2 md:col-span-1">
