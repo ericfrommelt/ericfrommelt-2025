@@ -71,7 +71,7 @@ const ConvertkitSignupForm = ({ formId, children }) => {
 
  return (
    <>
-   <div className="max-w-screen-md mx-auto mb-20 mt-10 text-center text-lg font-semibold px-10 pt-3 pb-10 bg-black bg-opacity-80 rounded-md border border-gray-800">
+   <div className="max-w-screen-md mx-auto mb-20 mt-10 text-center text-lg font-semibold px-10 pt-3 pb-10 bg-opacity-80 rounded-md border border-gray-200 bg-white dark:bg-black dark:border-gray-700">
      <p className={'mt-2 text-center py-10 font-mono uppercase text-sm'}>
        Weekly inspiration, design tips, + studio updates.
      </p>
