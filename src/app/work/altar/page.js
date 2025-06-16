@@ -28,7 +28,6 @@ export default function Altar() {
             height={1440}
           />
         </div>
-        
       </main>
     </>
   );

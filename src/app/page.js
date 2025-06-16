@@ -34,6 +34,17 @@ export default function Home() {
           </Link> 
         </div>
         <div className="project col-span-2 md:col-span-1">
+          <Link href="/work/collapse">
+          <Image
+            src="/work/collapse/TN_Collapse.png"
+            alt="Collapse"
+            width={2000}
+            height={1125}
+          />
+          <h2 className="text-base normal py-2">Collapse</h2>
+          </Link>
+        </div>
+        <div className="project col-span-2 md:col-span-1">
           <Link href="/work/leak">
           <Image
             src="/work/breach/TN_Leak.png"
