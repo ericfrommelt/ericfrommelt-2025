@@ -7,9 +7,17 @@ export default function Home() {
     <>
       <SketchOne />
       <main className="grid min-h-screen grid-cols-2 max-w-screen-xl mx-auto p-4 gap-4">
-        <h1 className="col-span-2 py-10 text-2xl">
-          Eric Frommelt is a digital artist and designer based in Los Angeles, California.
-        </h1>
+        <div className="project col-span-2 md:col-span-1">
+          <Link href="/work/spectrum">
+          <Image
+            src="/work/spectrum/TN_Spectrum.png"
+            alt="Spectrum"
+            width={1400}
+            height={788}
+          />
+          <h2 className="text-base normal py-2">Spectrum</h2>
+          </Link>
+        </div>
         <div className="project col-span-2 md:col-span-1">
           <Link href="/work/altar">
           <Image
@@ -18,7 +26,6 @@ export default function Home() {
             width={2560}
             height={1440}
           />
-          
           <h2 className="text-base normal py-2">Altar</h2>
           </Link>
         </div>

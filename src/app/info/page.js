@@ -14,9 +14,9 @@ export default function Info() {
         </div>
         <div className="col-span-1">
           <h1 className="text-5xl font-light py-10">Digital art + design. Human creativity.</h1>
-          <p className="mt-2">I&apos;m a digital artist and designer based in Los Angeles, CA. I partner with brands on visual exploration and storytelling through design.</p>
-          <p className="mt-2">I love light, running, and music.</p>
-          <p className="mt-20">Let&apos;s work together<br /><a href="mailto:eric@ericfrommelt.com" className="hover:underline">eric@ericfrommelt.com</a></p>
+          <p className="mt-2">I&apos;m a digital artist and designer based in Los Angeles, CA. I partner with with awesome people on visual explorations and storytelling through design.</p>
+          <h3 className="font-bold mt-20">Contact</h3>
+          <p><a href="mailto:eric@ericfrommelt.com" className="hover:underline">eric@ericfrommelt.com</a></p>
         </div>
       </main>
     </>

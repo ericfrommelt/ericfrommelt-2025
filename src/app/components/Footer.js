@@ -36,6 +36,11 @@ export default function Footer() {
               LinkedIn
             </a>
           </li>
+          <li>
+            <a href="https://www.pinterest.com/ericfrommelt/_profile/" className="hover:underline">
+              Pinterest
+            </a>
+          </li>
         </ul>
       </div>
       <div className="py-4 text-sm">
